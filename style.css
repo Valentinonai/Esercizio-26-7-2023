@@ -104,7 +104,8 @@ h2 {
   color: #5b210f;
   background-color: #f7d982;
   border: none;
-  margin-inline: 5.5em;
+  margin-inline: auto;
+  width: 200px;
   height: 4em;
   border-radius: 2em;
   cursor: pointer;
@@ -154,5 +155,73 @@ h2 {
   }
   .card {
     width: 100%;
+  }
+  .addCart {
+    width: 200px;
+    margin-inline: auto;
+  }
+}
+/* Versione Media >770px */
+@media screen and (min-width: 770px) {
+  body {
+    display: flex;
+  }
+  #menu {
+    flex-direction: column;
+  }
+  #navBar {
+    min-height: 100%;
+    width: 10em;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .buttonNav {
+    border-radius: 2.8em;
+    padding: 1em;
+    font-weight: 500;
+    font-size: 0.8em;
+    width: 10em;
+    height: 6em;
+    margin-block: 10px;
+    cursor: pointer;
+    order: 2;
+  }
+  .buttonMain {
+    order: 0;
+    font-size: 1.2em;
+    width: 6.5em;
+    height: 4em;
+  }
+  .buttonMain img {
+    margin-right: 5px;
+  }
+  .addCart {
+    width: 120px;
+    margin-inline: auto;
+  }
+  #cardsBox {
+    justify-content: space-around;
+  }
+  .card:last-of-type {
+    display: none;
+  }
+  .card {
+    width: 31%;
+    border-radius: 4em;
+  }
+  .descrizione h3 {
+    font-weight: 600;
+    font-size: 1em;
+    padding-inline: 0.8em;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .descrizione p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-size: 1em;
+    padding-right: 10px;
   }
 }
