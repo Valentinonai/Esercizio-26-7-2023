@@ -193,6 +193,22 @@ h2 {
     margin-block: 10px;
     cursor: pointer;
     order: 2;
+    position: fixed;
+  }
+  .button1 {
+    top: 20px;
+  }
+  .button2 {
+    top: 120px;
+  }
+  .button3 {
+    top: 220px;
+  }
+  .button4 {
+    top: 320px;
+  }
+  .button5 {
+    top: 420px;
   }
   .buttonMain {
     order: 0;
