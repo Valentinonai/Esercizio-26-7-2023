@@ -257,6 +257,10 @@ h2 {
     margin-inline: auto;
     height: 40px;
   }
+  .card h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+  }
   #article {
     display: flex;
   }
@@ -264,7 +268,7 @@ h2 {
     order: 2;
   }
   #testo {
-    padding-left: 10px;
+    padding-left: 2.5em;
   }
   #article img {
     order: 0;
