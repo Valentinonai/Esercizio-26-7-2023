@@ -182,6 +182,7 @@ h2 {
     width: 10em;
     flex-direction: column;
     justify-content: flex-start;
+    position: fixed;
   }
   .buttonNav {
     border-radius: 2.8em;
@@ -193,23 +194,11 @@ h2 {
     margin-block: 10px;
     cursor: pointer;
     order: 2;
-    position: fixed;
   }
-  .button1 {
-    top: 20px;
+  main {
+    padding-left: 12em;
   }
-  .button2 {
-    top: 120px;
-  }
-  .button3 {
-    top: 220px;
-  }
-  .button4 {
-    top: 320px;
-  }
-  .button5 {
-    top: 420px;
-  }
+
   .buttonMain {
     order: 0;
     font-size: 1.2em;
